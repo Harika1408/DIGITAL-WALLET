@@ -1,0 +1,77 @@
+.settings-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 80px; /* Ensure content appears below Navbar */
+  }
+  
+  /* Settings Layout */
+  .settings-content {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Sidebar Navigation */
+  .sidebar {
+    width: 200px;
+    text-align: left;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .sidebar button:hover {
+    background: #0056b3;
+  }
+  
+  /* Main Settings Section */
+  .settings-section {
+    flex: 1;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  /* Buttons inside settings */
+  .settings-section button {
+    padding: 8px 12px;
+    margin: 5px 0;
+    border: none;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .settings-section select {
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  
+  .settings-section label {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
